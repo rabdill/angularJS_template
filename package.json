@@ -1,0 +1,19 @@
+{
+	"name": "my-cool-app",
+	"private": true,
+	"version": "0.0.0",
+	"description": "AngularJS app template.",
+	"repository": "",
+	"license": "none",
+	"devDependencies": {
+		"http-server": "^0.6.1"
+	},
+	"scripts": {
+		"prestart": "npm install",
+		"start": "http-server -a localhost -p 8000 -c-1"
+	},
+	"dependencies": {
+		"angular": "^1.4.9",
+		"angular-route": "^1.4.7"
+	}
+}

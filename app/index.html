@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myCoolApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App yay</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="view-container">
+    <h1>Main page cool</h1>
+    <div ng-view class="view-frame"></div>
+  </div>
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="../node_modules/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers.js"></script>
+  <script src="services.js"></script>
+</body>
+</html>
